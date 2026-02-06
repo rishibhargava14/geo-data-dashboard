@@ -1,0 +1,36 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+html,
+body,
+#root {
+  height: 100%;
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #1f2937;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Utility */
+.container {
+  padding: 20px;
+}
+
+/* Leaflet fix */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
